@@ -1,0 +1,41 @@
+img.zoom {
+    width: 700px;
+    height: 500px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+.transisi {
+    -webkit-transform: scale(1.8); 
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);
+}
+
+.jumbotron {
+	background-size: cover;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.jumbotron .display-4 {
+	color: white;
+}
+.jumbotron p {
+	color: white;
+	font-size: 25px;
+}
+.jumbotron hr {
+	border-color: #F05F40;
+	width: 70px;
+	border-width: 3px;
+}
+.jumbotron .btn {
+	background-color: #F05F40;
+	border: none;
+	border-radius: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-top: 40px;
+}
